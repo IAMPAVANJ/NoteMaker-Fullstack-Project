@@ -1,0 +1,35 @@
+h1 {
+    width: 60%;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.post-note-form-container {
+    display: flex;
+    flex-direction: column;
+
+    height: 30rem;
+    width: 60%;
+    padding: 1.5rem;
+    margin: auto;
+    justify-content: center;
+
+    border: 1px solid rgb(211, 209, 209);
+    border-radius: 0.5rem;
+}
+
+.description-box {
+    height: 20rem;
+}
+
+textarea{
+    outline: none;
+    border:1px solid rgb(211, 209, 209);
+    border-radius: 0.5rem;
+    background-color: rgb(252, 251, 251);
+    padding: 1rem;
+}
+
+.postnote-btn{
+    margin-top: 2rem;
+}

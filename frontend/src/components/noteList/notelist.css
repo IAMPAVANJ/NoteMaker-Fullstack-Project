@@ -1,0 +1,36 @@
+.noteList-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1rem;
+    width: 90%;
+}
+.card-headerbar{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-container {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    margin-left:20rem ;
+
+}
+.btn-container button{
+    margin-left: 1rem;
+}
+
+.addbtn,
+.deleteall-btn {
+    margin: 1rem;
+}
+.card{
+    width:80%;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+h5{
+    padding: 0.5rem;
+    font-weight: bold;
+}
