@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #38628d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 0.5rem 1rem;
+
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+  }
+  
+  .navbar-brand a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus,
+  .navbar-toggler-icon:active {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar-toggler-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
